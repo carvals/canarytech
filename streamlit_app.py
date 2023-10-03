@@ -42,7 +42,7 @@ st.markdown("""
 could be scary if you block or enable the wrong company.
 * Chief engineer reviewed the product structure and validate the new BOM, but the new BOM is not uploaded in the PDM system.
 * Finance receiving recurring late request to validate project margin on Excel with a questionable hourly rate.... 
-no worries it is just a multi millions call for tender!! """)
+(no worries it is just a multi millions call for tender!!) """)
 
 st.markdown("""We have developped a methodology to collect, index, organise, manipulate and secure your orphan process and data in a single place.  """)
 
@@ -63,7 +63,7 @@ Why do you not have the same for your time series data from your machines?  """)
 
 st.markdown("""Existing technologies allow to go through PetaByte of data and start indexing etc... But at which cost? Here golden rules we learned working with cloud and timeseries :   
 * It's not because it is possible that it is the right thing to do
-* Cloud providers don't crash, they charge you
+* Cloud providers don't crash, they charge
 * Don't use serverless architecture when you can plan the workload
 * Having IoT monitoring does not mean your data are "ready" for analytics""")
 
@@ -87,9 +87,9 @@ Today, organisation need to learn how to use generative AI and LLM model. Dedica
 col1, col2 = st.columns(2)
 
 col1.markdown(""" 
-* Everybody: How interrogate safely a generative AI and validate the output
-* Manager: How manage the skills recognising the added value of generative AI
-* Executive: How to make decision with AI, understand conceptually LLM, training dataset and avoid bias""")
+* **Everybody**: How interrogate safely a generative AI and validate the output
+* **Manager**: How manage the skills recognising the added value of generative AI
+* **Executive**: How to make decision with AI, understand conceptually LLM, training dataset and avoid bias""")
 
 
 col2.image(os.path.join(img_path, 'preventive_ai _400.png'),output_format = "PNG")
