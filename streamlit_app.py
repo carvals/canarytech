@@ -94,7 +94,7 @@ col2.image(os.path.join(img_path, 'preventive_ai _400.png'),output_format = "PNG
 
 st.markdown("""### Contact us for a demo or a POC:  
 * [canarytech@otahy.com](mailto:canaryfab@otahy.com)
-* [carvals@otahy.com](mailto:carvals@otahy.com""")
+* [carvals@otahy.com](mailto:carvals@otahy.com)""")
 
 #add orphan data image
 #st.image(os.path.join(img_path, 'orphan_data.png'),output_format = "PNG")
