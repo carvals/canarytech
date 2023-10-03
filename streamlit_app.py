@@ -29,8 +29,8 @@ col2.markdown("""
 
 col2.markdown("""##### This concrete portofolio will solve 3 existing pain points of your business in a digital world. """)
 
-st.markdown("""We encounter 3 major reccuring pain points with industrial customers:
-* 1: Despite all my efforts I have critical orhpans data at the intersection of my ERP and other platforms, creating a major risks (quality, finance, compliance, ESG, etc...)
+st.markdown("""We encounter 3 major recurring pain points with industrial customers:
+* 1: Despite all my efforts I have critical orphans data at the intersection of my ERP and other platforms, creating a major risks (quality, finance, compliance, ESG, etc...)
 * 2: Everytime I run an analytic project to solve production issues, I start by cleaning, indexing, organising my time series data from machines with a huge associated cost.
 * 3: I see more and more generative AI used by my emplpyees officially or not, how I can train my organisation?""")
 
