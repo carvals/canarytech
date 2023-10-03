@@ -25,8 +25,9 @@ col1.image(canary_path, output_format = "PNG")
 #in col2 put some text
 col2.markdown("""<br>""", unsafe_allow_html=True)
 col2.markdown("""
-#### After years of working in the industrial data engeering field, Otahy has developped Canary Tech.   
-#### This concrete portofolio will solve 3 existing pain points of your business in a digital world. """)
+#### After years of working in the industrial data engeering field, Otahy has developped a new offer Canary Tech. """)  
+
+col2.markdown("""#### This concrete portofolio will solve 3 existing pain points of your business in a digital world. """)
 
 st.markdown("""We encounter 3 major pain points every time we are with industrial cusotmers:
 * 1: Despite all my efforts I have critical orhpans data at the intersection of my ERP and other platforms, creating a major risks (quality, finance, compliance, ESG, etc...)
