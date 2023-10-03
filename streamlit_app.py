@@ -39,7 +39,7 @@ st.markdown("""## Orphan Data :""")
 st.markdown("""They exist because they are small, critical, coming from various sources at different frequencies:""")
 st.markdown("""
 * Lawers checking suppliers contracts and compliance then passing instructions to someone else to upload in SAP... 
-could be scary if you block or enable the wrong subsidiary in a group.
+could be scary if you block or enable the wrong company.
 * Chief engineer reviewed the product structure and validate the new BOM, but the new BOM is not uploaded in the PDM system.
 * Finance receiving recurring late request to validate project margin on Excel with a questionable hourly rate.... 
 no worries it is just a multi millions call for tender!! """)
