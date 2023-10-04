@@ -8,13 +8,13 @@ st.set_page_config(page_title="Canary Tech", page_icon="	:factory:", layout="cen
 #construct the path of the img folder
 img_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'ressources/img'))
 
-hide = """
-    <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-    </style>
-"""
-st.markdown(hide, unsafe_allow_html=True)
+st.markdown('''
+<style>
+.stApp [data-testid="stToolbar"]{
+    display:none;
+}
+</style>
+''', unsafe_allow_html=True)
 
 
 #center the title
