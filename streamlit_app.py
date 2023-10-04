@@ -8,6 +8,7 @@ st.set_page_config(page_title="Canary Tech", page_icon="	:factory:", layout="cen
 #construct the path of the img folder
 img_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'ressources/img'))
 
+#hide the menu
 st.markdown('''
 <style>
 .stApp [data-testid="stToolbar"]{
